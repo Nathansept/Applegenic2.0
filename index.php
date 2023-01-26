@@ -247,10 +247,14 @@ function kirimContactForm(){
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 9954b0e (merge)
         <strong><div class="cinta">Copyright © 2023</i> by <a href="https://github.com/Nathansept/Applegenic2.0" target="_blank">Applegenic</a></div></strong>
 =======
         <strong><div class="cinta">Copyright © 2017 - Made with <i class="fa fa-heart pulse"></i> by <a href="http://januriawan.github.io" target="_blank">Januriawan</a></div></strong>
 >>>>>>> parent of 0353103 (Update UI sementara)
+<<<<<<< HEAD
 =======
         <strong><div class="cinta">Copyright © 2023</i> by <a href="https://github.com/Nathansept/Applegenic2.0" target="_blank">Applegenic</a></div></strong>
 >>>>>>> parent of c770cd4 (merge)
@@ -260,6 +264,8 @@ function kirimContactForm(){
 =======
         <strong><div class="cinta">Copyright © 2023</i> by <a href="https://github.com/Nathansept/Applegenic2.0" target="_blank">Applegenic</a></div></strong>
 >>>>>>> parent of c770cd4 (merge)
+=======
+>>>>>>> parent of 9954b0e (merge)
       </footer>
       <!-- Add the sidebar's background. This div must be placed
            immediately after the control sidebar -->
