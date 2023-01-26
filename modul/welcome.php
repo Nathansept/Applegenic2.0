@@ -83,20 +83,22 @@ $dtgejala = mysqli_fetch_assoc($htgejala); ?>
   </div>
   <!-- ./col -->
   <?php
-  $htadmin = mysqli_query($conn, "SELECT count(*) as total from admin");
-  $dtadmin = mysqli_fetch_assoc($htadmin); ?>
-  <div class="col-lg-3 col-xs-6">
-    <!-- small box -->
+  // $htadmin = mysqli_query($conn, "SELECT count(*) as total from admin");
+  // $dtadmin = mysqli_fetch_assoc($htadmin); 
+  ?>
+  <!-- <div class="col-lg-3 col-xs-6">
+
     <div class="small-box bg-red">
       <div class="inner">
-        <h3> <?php echo $dtadmin["total"]; ?></h3>
+        <h3> <?php //echo $dtadmin["total"]; 
+              ?></h3>
         <p>Total Admin Pakar</p>
       </div>
       <div class="icon">
         <i class="ion ion-person-add"></i>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- ./col -->
 </div>
 <br>

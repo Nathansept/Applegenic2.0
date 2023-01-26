@@ -56,9 +56,9 @@ include "config/fungsi_alert.php";
     <!-- Main Header -->
     <header class="main-header">
       <!-- Logo -->
-      <a href="./" class="logo">
+      <a href="./" class="logo" style="">
         <!-- mini logo for sidebar mini 50x50 pixels -->
-        <span class="logo-mini"><b><img src="gambar/applegenic/logo_applegenic2.png" style="width: 28px; margin-top: 10px;" alt=""></i> </b></span>
+        <span class="logo-mini"><b><img src="gambar/applegenic/logo_applegenic2.png" style="width: 28px; margin-top: 10px; " alt=""></i> </b></span>
         <!-- logo for regular state and mobile devices -->
         <span class="logo-lg"><b><img src="gambar/applegenic/logo_applegenic2.png" style="width: 28px; margin-top: -10px;" alt=""></i> Applegenic</b></span>
       </a>
@@ -119,7 +119,7 @@ include "config/fungsi_alert.php";
       <section class="sidebar">
         <!-- Sidebar Menu -->
         <ul class="sidebar-menu">
-          <li class="header">Menu</li>
+          <li class="header" style="color: white;"></li>
           <!-- Optionally, you can add icons to the links -->
           <?php include "menu.php"; ?>
       </section>

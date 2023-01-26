@@ -193,7 +193,7 @@
 .skin-blue-light .wrapper,
 .skin-blue-light .main-sidebar,
 .skin-blue-light .left-side {
-  background-color: #f9fafc;
+  background-color: #a40000;
 }
 .skin-blue-light .main-sidebar {
   border-right: 1px solid #d2d6de;
@@ -209,7 +209,7 @@
 }
 .skin-blue-light .sidebar-menu > li.header {
   color: #848484;
-  background: #f9fafc;
+  background: #a40000;
 }
 .skin-blue-light .sidebar-menu > li > a {
   border-left: 3px solid transparent;
@@ -537,7 +537,7 @@
 .skin-black-light .wrapper,
 .skin-black-light .main-sidebar,
 .skin-black-light .left-side {
-  background-color: #f9fafc;
+  background-color: #a40000;
 }
 .skin-black-light .main-sidebar {
   border-right: 1px solid #d2d6de;
@@ -553,7 +553,7 @@
 }
 .skin-black-light .sidebar-menu > li.header {
   color: #848484;
-  background: #f9fafc;
+  background: #a40000;
 }
 .skin-black-light .sidebar-menu > li > a {
   border-left: 3px solid transparent;
@@ -826,7 +826,7 @@
 .skin-green-light .wrapper,
 .skin-green-light .main-sidebar,
 .skin-green-light .left-side {
-  background-color: #f9fafc;
+  background-color: #a40000;
 }
 .skin-green-light .main-sidebar {
   border-right: 1px solid #d2d6de;
@@ -842,7 +842,7 @@
 }
 .skin-green-light .sidebar-menu > li.header {
   color: #848484;
-  background: #f9fafc;
+  background: #a40000;
 }
 .skin-green-light .sidebar-menu > li > a {
   border-left: 3px solid transparent;
@@ -1115,7 +1115,7 @@
 .skin-red-light .wrapper,
 .skin-red-light .main-sidebar,
 .skin-red-light .left-side {
-  background-color: #f9fafc;
+  background-color: #a40000;
 }
 .skin-red-light .main-sidebar {
   border-right: 1px solid #d2d6de;
@@ -1131,7 +1131,7 @@
 }
 .skin-red-light .sidebar-menu > li.header {
   color: #848484;
-  background: #f9fafc;
+  background: #a40000;
 }
 .skin-red-light .sidebar-menu > li > a {
   border-left: 3px solid transparent;
@@ -1396,7 +1396,7 @@
 .skin-yellow-light .wrapper,
 .skin-yellow-light .main-sidebar,
 .skin-yellow-light .left-side {
-  background-color: #f9fafc;
+  background-color: #a40000;
 }
 .skin-yellow-light .main-sidebar {
   border-right: 1px solid #d2d6de;
@@ -1412,7 +1412,7 @@
 }
 .skin-yellow-light .sidebar-menu > li.header {
   color: #848484;
-  background: #f9fafc;
+  background: #a40000;
 }
 .skin-yellow-light .sidebar-menu > li > a {
   border-left: 3px solid transparent;
@@ -1629,10 +1629,10 @@
   border-bottom-left-radius: 0;
 }
 .skin-purple-light .main-header .navbar {
-  background-color: #a40000;
+  background-color: #ecf0f5;
 }
 .skin-purple-light .main-header .navbar .nav > li > a {
-  color: #fff;
+  color: #a40000;
 }
 .skin-purple-light .main-header .navbar .nav > li > a:hover,
 .skin-purple-light .main-header .navbar .nav > li > a:active,
@@ -1642,17 +1642,17 @@
 .skin-purple-light .main-header .navbar .nav .open > a:focus,
 .skin-purple-light .main-header .navbar .nav > .active > a {
   background: rgba(0, 0, 0, 0.1);
-  color: #f6f6f6;
+  color: #a40000;
 }
 .skin-purple-light .main-header .navbar .sidebar-toggle {
-  color: #fff;
+  color: #a40000;
 }
 .skin-purple-light .main-header .navbar .sidebar-toggle:hover {
-  color: #f6f6f6;
+  color: #fff;
   background: rgba(0, 0, 0, 0.1);
 }
 .skin-purple-light .main-header .navbar .sidebar-toggle {
-  color: #fff;
+  color: #a40000;
 }
 .skin-purple-light .main-header .navbar .sidebar-toggle:hover {
   background-color: #780000;
@@ -1685,7 +1685,7 @@
 .skin-purple-light .wrapper,
 .skin-purple-light .main-sidebar,
 .skin-purple-light .left-side {
-  background-color: #f9fafc;
+  background-color: #a40000;
 }
 .skin-purple-light .main-sidebar {
   border-right: 1px solid #d2d6de;
@@ -1701,7 +1701,7 @@
 }
 .skin-purple-light .sidebar-menu > li.header {
   color: #848484;
-  background: #f9fafc;
+  background: #a40000;
 }
 .skin-purple-light .sidebar-menu > li > a {
   border-left: 3px solid transparent;
@@ -1710,7 +1710,7 @@
 .skin-purple-light .sidebar-menu > li:hover > a,
 .skin-purple-light .sidebar-menu > li.active > a {
   color: #000;
-  background: #f4f4f5;
+  background: #780000;
 }
 .skin-purple-light .sidebar-menu > li.active {
   border-left-color: #a40000;
