@@ -6,81 +6,7 @@ include "config/koneksi.php";
 include "config/fungsi_alert.php";
 ?>
 <!DOCTYPE html>
-<html><head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Tell the browser to be responsive to screen width -->
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-	<link rel="icon" href="gambar/admin/favicon.png">
-    <link href="css/font-awesome-4.2.0/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/owl-carousel/owl.carousel.css" rel="stylesheet"  media="all">
-    <link href="css/owl-carousel/owl.theme.css" rel="stylesheet"  media="all">
-    <link href="css/magnific-popup.css" type="text/css" rel="stylesheet" media="all" />
-    <link href="css/font.css" rel="stylesheet" type="text/css"  media="all">
-    <link href="css/fontello.css" rel="stylesheet" type="text/css"  media="all">
-    <link href="css/main.css" rel="stylesheet" type="text/css" media="all"/>
-    <link rel=stylesheet href="css/paging.css" type="text/css" media=screen>
-    <!-- Bootstrap 3.3.5 -->
-    <link rel="stylesheet" href="aset/bootstrap.css">
-    <!-- Theme style -->
-    <link rel="stylesheet" href="aset/AdminLTE.css">
-<<<<<<< HEAD
-<<<<<<< HEAD
-	  <link rel="stylesheet" href="aset/cinta.css">
-=======
-	<link rel="stylesheet" href="aset/cinta.css">
->>>>>>> parent of 0353103 (Update UI sementara)
-=======
-	<link rel="stylesheet" href="aset/cinta.css">
->>>>>>> parent of 12461f2 (second)
-    <link rel="stylesheet" href="aset/Ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="aset/skins/_all-skins.min.css">
-    <link rel="stylesheet" href="aset/custom.css">
-    <link rel="stylesheet" href="aset/icheck/green.css">
-    <link rel="stylesheet" href="css/style.css">
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <link rel="shortcut icon" href="gambar/logo_applegenic2.png" type="image/x-icon">
-=======
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
->>>>>>> parent of 0353103 (Update UI sementara)
-=======
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
->>>>>>> parent of 12461f2 (second)
-    <!-- jQuery 2.1.4 -->
-    <script src="aset/jQuery-2.js"></script>
-    <!-- Bootstrap 3.3.5 -->
-    <script src="aset/bootstrap.js"></script>
-    <script src="aset/icheck/icheck.js"></script>
-    <script src="aset/ckeditor/ckeditor.js"></script>
-    <script src="aset/Flot/jquery.flot.js"></script>
-    <!-- FLOT RESIZE PLUGIN - allows the chart to redraw when the window is resized -->
-    <script src="aset/Flot/jquery.flot.resize.js"></script>
-    <!-- FLOT PIE PLUGIN - also used to draw donut charts -->
-    <script src="aset/Flot/jquery.flot.pie.js"></script>
-    <!-- FLOT CATEGORIES PLUGIN - Used to draw bar charts -->
-    <script src="aset/Flot/jquery.flot.categories.js"></script> 
-    <!-- AdminLTE App -->
-    <script src="aset/app.js"></script>
-  </head>
-  <body id="pakarayam" class="hold-transition skin-purple-light sidebar-mini">
-    <div class="wrapper">
-      <!-- Main Header -->
-      <header class="main-header">
-        <!-- Logo -->
-        <a href="./" class="logo">
-          <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini"><b><i class="fa fa-contao" aria-hidden="true"></i>XS</b></span>
-          <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><b><i class="fa fa-contao" aria-hidden="true"></i>hirexs 1.0</b></span>
-        </a>
-        <!-- Header Navbar -->
-        <nav class="navbar navbar-static-top" role="navigation">
-          <!-- Sidebar toggle button-->
-          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
-            <span class="sr-only">Toggle navigation</span>
-          </a>
+<html>
 
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -299,52 +225,20 @@ include "config/fungsi_alert.php";
                 }
                 $('.submitBtn').removeAttr("disabled");
                 $('.modal-body').css('opacity', '');
-<<<<<<< HEAD
-            }
-        });
-    }
-}
-</script>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 9954b0e (merge)
-        <strong><div class="cinta">Copyright © 2023</i> by <a href="https://github.com/Nathansept/Applegenic2.0" target="_blank">Applegenic</a></div></strong>
-=======
-        <strong><div class="cinta">Copyright © 2017 - Made with <i class="fa fa-heart pulse"></i> by <a href="http://januriawan.github.io" target="_blank">Januriawan</a></div></strong>
->>>>>>> parent of 0353103 (Update UI sementara)
-<<<<<<< HEAD
-=======
-        <strong><div class="cinta">Copyright © 2023</i> by <a href="https://github.com/Nathansept/Applegenic2.0" target="_blank">Applegenic</a></div></strong>
->>>>>>> parent of c770cd4 (merge)
-=======
-        <strong><div class="cinta">Copyright © 2017 - Made with <i class="fa fa-heart pulse"></i> by <a href="http://januriawan.github.io" target="_blank">Januriawan</a></div></strong>
->>>>>>> parent of 12461f2 (second)
-=======
-        <strong><div class="cinta">Copyright © 2023</i> by <a href="https://github.com/Nathansept/Applegenic2.0" target="_blank">Applegenic</a></div></strong>
->>>>>>> parent of c770cd4 (merge)
-=======
->>>>>>> parent of 9954b0e (merge)
-      </footer>
-      <!-- Add the sidebar's background. This div must be placed
-=======
               }
             });
           }
         }
       </script>
+
       <strong>
-        <div class="cinta">Copyright © 2017 - Made with <i class="fa fa-heart pulse"></i> by <a href="http://januriawan.github.io" target="_blank">Januriawan</a></div>
+        <div class="cinta">Copyright © 2023</i> by <a href="https://github.com/Nathansept/Applegenic2.0" target="_blank">Applegenic</a></div>
       </strong>
+
     </footer>
-    <!-- Add the sidebar's background. This div must be placed
->>>>>>> parent of 096774d (Revert "merge")
-           immediately after the control sidebar -->
+
     <div class="control-sidebar-bg" style="position: fixed; height: auto;"></div>
-  </div><!-- ./wrapper -->
+  </div>
 </body>
 
 </html>
