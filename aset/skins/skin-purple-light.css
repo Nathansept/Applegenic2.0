@@ -3,7 +3,7 @@
  * ------------
  */
 .skin-purple-light .main-header .navbar {
-  background-color: #605ca8;
+  background-color: #a40000;
 }
 .skin-purple-light .main-header .navbar .nav > li > a {
   color: #ffffff;
@@ -43,7 +43,7 @@
   }
 }
 .skin-purple-light .main-header .logo {
-  background-color: #605ca8;
+  background-color: #a40000;
   color: #ffffff;
   border-bottom: 0 solid transparent;
 }
@@ -51,7 +51,7 @@
   background-color: #5d59a6;
 }
 .skin-purple-light .main-header li.user-header {
-  background-color: #605ca8;
+  background-color: #a40000;
 }
 .skin-purple-light .content-header {
   background: transparent;
@@ -87,7 +87,7 @@
   background: #f4f4f5;
 }
 .skin-purple-light .sidebar-menu > li.active {
-  border-left-color: #605ca8;
+  border-left-color: #a40000;
 }
 .skin-purple-light .sidebar-menu > li.active > a {
   font-weight: 600;
@@ -131,11 +131,19 @@
   border-bottom-left-radius: 2px;
 }
 .skin-purple-light .sidebar-form input[type="text"]:focus,
-.skin-purple-light .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+.skin-purple-light
+  .sidebar-form
+  input[type="text"]:focus
+  + .input-group-btn
+  .btn {
   background-color: #fff;
   color: #666;
 }
-.skin-purple-light .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+.skin-purple-light
+  .sidebar-form
+  input[type="text"]:focus
+  + .input-group-btn
+  .btn {
   border-left-color: #fff;
 }
 .skin-purple-light .sidebar-form .btn {
@@ -146,7 +154,10 @@
   border-bottom-left-radius: 0;
 }
 @media (min-width: 768px) {
-  .skin-purple-light.sidebar-mini.sidebar-collapse .sidebar-menu > li > .treeview-menu {
+  .skin-purple-light.sidebar-mini.sidebar-collapse
+    .sidebar-menu
+    > li
+    > .treeview-menu {
     border-left: 1px solid #d2d6de;
   }
 }
