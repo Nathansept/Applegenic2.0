@@ -32,7 +32,7 @@ return (true);
 </script>
 <?php
 include "config/fungsi_alert.php";
-$aksi="modul/gejala/aksi_gejala.php";
+$aksi="../modul/gejala/aksi_gejala.php";
 switch($_GET["act"]){
 	// Tampil gejala
   default:

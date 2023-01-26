@@ -23,7 +23,7 @@
 </script>
 <?php
 include "config/fungsi_alert.php";
-$aksi = "modul/post/aksi_post.php";
+$aksi = "../modul/post/aksi_post.php";
 switch ($_GET["act"]) {
     // Tampil post
     default:

@@ -2,7 +2,7 @@
 
 session_start();
 if (!(isset($_SESSION['username']) && isset($_SESSION['password']))) {
-    header('location:index.php');
+    header('location:../../index.php');
     exit();
 } else {
 ?>

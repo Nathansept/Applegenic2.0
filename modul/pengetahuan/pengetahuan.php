@@ -44,7 +44,7 @@ if (!(isset($_SESSION['username']) && isset($_SESSION['password']))) {
 	</script>
 	<?php
 	include "config/fungsi_alert.php";
-	$aksi = "modul/pengetahuan/aksi_pengetahuan.php";
+	$aksi = "../modul/pengetahuan/aksi_pengetahuan.php";
 	switch ($_GET["act"]) {
 			// Tampil pengetahuan
 		default:

@@ -33,7 +33,7 @@ if (!(isset($_SESSION['username']) && isset($_SESSION['password']))) {
   <?php
 
   include "config/fungsi_alert.php";
-  $aksi = "modul/penyakit/aksi_penyakit.php";
+  $aksi = "../modul/penyakit/aksi_penyakit.php";
   switch ($_GET["act"]) {
     // Tampil penyakit
     default:
