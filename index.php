@@ -26,20 +26,28 @@ include "config/fungsi_alert.php";
     <!-- Theme style -->
     <link rel="stylesheet" href="aset/AdminLTE.css">
 <<<<<<< HEAD
+<<<<<<< HEAD
 	  <link rel="stylesheet" href="aset/cinta.css">
 =======
 	<link rel="stylesheet" href="aset/cinta.css">
 >>>>>>> parent of 0353103 (Update UI sementara)
+=======
+	<link rel="stylesheet" href="aset/cinta.css">
+>>>>>>> parent of 12461f2 (second)
     <link rel="stylesheet" href="aset/Ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="aset/skins/_all-skins.min.css">
     <link rel="stylesheet" href="aset/custom.css">
     <link rel="stylesheet" href="aset/icheck/green.css">
     <link rel="stylesheet" href="css/style.css">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <link rel="shortcut icon" href="gambar/logo_applegenic2.png" type="image/x-icon">
 =======
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 >>>>>>> parent of 0353103 (Update UI sementara)
+=======
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+>>>>>>> parent of 12461f2 (second)
     <!-- jQuery 2.1.4 -->
     <script src="aset/jQuery-2.js"></script>
     <!-- Bootstrap 3.3.5 -->
@@ -237,6 +245,7 @@ function kirimContactForm(){
 </script>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <strong><div class="cinta">Copyright © 2023</i> by <a href="https://github.com/Nathansept/Applegenic2.0" target="_blank">Applegenic</a></div></strong>
 =======
         <strong><div class="cinta">Copyright © 2017 - Made with <i class="fa fa-heart pulse"></i> by <a href="http://januriawan.github.io" target="_blank">Januriawan</a></div></strong>
@@ -244,6 +253,9 @@ function kirimContactForm(){
 =======
         <strong><div class="cinta">Copyright © 2023</i> by <a href="https://github.com/Nathansept/Applegenic2.0" target="_blank">Applegenic</a></div></strong>
 >>>>>>> parent of c770cd4 (merge)
+=======
+        <strong><div class="cinta">Copyright © 2017 - Made with <i class="fa fa-heart pulse"></i> by <a href="http://januriawan.github.io" target="_blank">Januriawan</a></div></strong>
+>>>>>>> parent of 12461f2 (second)
       </footer>
       <!-- Add the sidebar's background. This div must be placed
            immediately after the control sidebar -->
