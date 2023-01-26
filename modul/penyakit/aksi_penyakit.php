@@ -17,7 +17,7 @@ if (!(isset($_SESSION['username']) && isset($_SESSION['password']))) {
 // Hapus penyakit
   if ($module == 'penyakit' AND $act == 'hapus') {
     mysqli_query($conn,"DELETE FROM penyakit WHERE kode_penyakit='$_GET[id]'");
-    header('location:../../index.php?module=' . $module);
+    header('location:../../index.php?module='.$module);
   }
 
 // Input penyakit
@@ -32,7 +32,7 @@ if (!(isset($_SESSION['username']) && isset($_SESSION['password']))) {
 	                       VALUES(
 				'$nama_penyakit','$det_penyakit','$srn_penyakit','$fileName')");
 
-    header('location:../../index.php?module=' . $module);
+header('location:../../index.php?module='.$module);
   }
 
 // Update penyakit
@@ -58,7 +58,7 @@ if (!(isset($_SESSION['username']) && isset($_SESSION['password']))) {
 					srn_penyakit   = '$srn_penyakit'
                WHERE kode_penyakit       = '$_POST[id]'");
     }
-    header('location:../../index.php?module=' . $module);
+    header('location:../../index.php?module='.$module);
   }
   ?>
 <?php } ?>

@@ -9,7 +9,7 @@ $act = $_GET["act"];
 // Hapus post
 if ($module == 'post' AND $act == 'hapus') {
     mysqli_query($conn,"DELETE FROM post WHERE kode_post='$_GET[id]'");
-    header('location:../../index.php?module=' . $module);
+    header('location:../../index.php?module='.$module);
 }
 
 // Input post
@@ -24,7 +24,7 @@ elseif ($module == 'post' AND $act == 'input') {
 	                       VALUES(
 				'$nama_post','$det_post','$srn_post','$fileName')");
 
-    header("location:../../index.php?module=" . $module);
+header('location:../../index.php?module='.$module);
 }
 
 // Update post
@@ -50,6 +50,6 @@ elseif ($module == 'post' AND $act == 'update') {
 					srn_post   = '$srn_post'
                WHERE kode_post       = '$_POST[id]'");
     }
-    header('location:../../index.php?module=' . $module);
+    header('location:../../index.php?module='.$module);
 }
 ?>

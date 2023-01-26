@@ -33,7 +33,7 @@ include "config/fungsi_alert.php";
   <link rel="stylesheet" href="aset/custom.css">
   <link rel="stylesheet" href="aset/icheck/green.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
   <!-- jQuery 2.1.4 -->
   <script src="aset/jQuery-2.js"></script>
   <!-- Bootstrap 3.3.5 -->

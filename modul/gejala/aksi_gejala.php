@@ -35,7 +35,7 @@ $nama_gejala=$_POST["nama_gejala"];
   mysqli_query($conn,"UPDATE gejala SET
 					nama_gejala   = '$nama_gejala'
                WHERE kode_gejala       = '$_POST[id]'");
-  header('location:../../index.php?module='.$module);
+header('location:../../index.php?module='.$module);
  }
  
 ?>

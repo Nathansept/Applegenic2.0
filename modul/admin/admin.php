@@ -1,4 +1,4 @@
-<title>Admin - Chirexs 1.0</title>
+<title>Admin - Applegenic 2.0</title>
 <?php
 session_start();
 if (!(isset($_SESSION['username']) && isset($_SESSION['password']))) {

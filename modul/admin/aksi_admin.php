@@ -6,6 +6,7 @@ if (!(isset($_SESSION['username']) && isset($_SESSION['password']))) {
     exit();
 } else {
 ?>
+
 <?php
 session_start();
 include "../../config/koneksi.php";
@@ -17,7 +18,6 @@ $act=$_GET["act"];
 if ($module=='admin' AND $act=='hapus'){
   mysqli_query($conn,"DELETE FROM admin WHERE username='$_GET[id]'");
   header('location:../../index.php?module='.$module);
-  header('location:index.php');
 }
 
 // Input admin

@@ -44,7 +44,7 @@ $md=$_POST["md"];
 					mb   = '$mb',
 					md   = '$md'
                WHERE kode_pengetahuan       = '$_POST[id]'");
-  header('location:../../index.php?module='.$module);
+header('location:../../index.php?module='.$module);
  }
  
 ?>

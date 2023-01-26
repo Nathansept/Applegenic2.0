@@ -1,4 +1,4 @@
-<title>Penyakit - Chirexs 1.0</title>
+<title>Penyakit - Applegenic 2.0</title>
 <?php
 
 session_start();

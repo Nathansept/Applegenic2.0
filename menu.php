@@ -7,7 +7,8 @@ $module = $_GET['module'];
   <?php
   if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
   ?>
-<li><a <?php if ($module == "admin") echo 'class="active"'; ?> href="admin"><i class="fa fa-user"></i> <span>Admin</span></a>
+  <div class=" container"></div>
+<li><a <?php if ($module == "admin") echo 'class="active"'; ?> href="admin" style="padding-left: 20px;"><i class="fa fa-user" style="margin-left: -7px; font-size: 25px; color: white;"></i> <span style="font-size: 20px; font-weight: normal; padding-left: 10px; color: white;"></i> <span>Admin</span></a>
 <li>
   <div class=" container"></div>
 <li><a <?php if ($module == "penyakit") echo 'class="active"'; ?> href="penyakit" style="padding-left: 20px;"><i class="fa fa-bug" style="margin-left: -7px; font-size: 25px; color: white;"></i> <span style="font-size: 20px; font-weight: normal; padding-left: 10px; color: white;">Penyakit</span></a>
@@ -18,11 +19,12 @@ $module = $_GET['module'];
   <div class="container"></div>
 <li><a <?php if ($module == "pengetahuan") echo 'class="active"'; ?> href="pengetahuan" style="padding-left: 20px;"><i class="fa fa-flask" style="margin-left: -7px; font-size: 25px; color: white;"></i> <span style="font-size: 20px; font-weight: normal; padding-left: 10px; color: white;">Pengetahuan</span></a>
 <li>
+<div class="container"></div>
   <div class="container"></div>
-<li><a <?php if ($module == "post") echo 'class="active"'; ?> href="post"><i class="fa fa-file-text"></i> <span>Post Keterangan</span></a>
+<li><a <?php if ($module == "post") echo 'class="active"'; ?> href="post" style="padding-left: 20px;"> <i class="fa fa-file-text" style="margin-left: -7px; font-size: 25px; color: white;"></i> <span style="font-size: 20px; font-weight: normal; padding-left: 10px; color: white;">Post Keterangan</span></a>
 <li>
   <div class="container"></div>
-<li><a <?php if ($module == "password") echo 'class="active"'; ?> href="password"><i class="fa fa-edit"></i> <span>Ubah Password</span></a>
+<li><a <?php if ($module == "password") echo 'class="active"'; ?> href="password" style="padding-left: 20px;"><i class="fa fa-edit" style="margin-left: -7px; font-size: 25px; color: white;"></i> <span style="font-size: 20px; font-weight: normal; padding-left: 10px; color: white;"></i> <span>Ubah Password</span></a>
 <li>
   <div class="container"></div>
 <?php
