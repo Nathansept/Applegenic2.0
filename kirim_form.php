@@ -9,8 +9,8 @@ if(isset($_POST['contactFrmSubmit']) && !empty($_POST['nama']) && !empty($_POST[
     /*
      * Kirim email ke alamat dibawah ini
      */
-    $ke     = 'fajanuriawan@gmail.com';
-    $subjek= 'Kontak Bantuan Aplikasi Chirex 1.0';
+    $ke     = 'nathan.412020006@civitas.ukrida.ac.id';
+    $subjek= 'Kontak Bantuan Aplikasi Applegenic 2.0';
 
     $kontenHtml = '
     <h4>permintaan kontak telah disampaikan pada Admin, berikut ini rinciannya.</h4>

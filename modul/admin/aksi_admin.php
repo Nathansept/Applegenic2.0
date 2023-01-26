@@ -10,8 +10,8 @@ if (!(isset($_SESSION['username']) && isset($_SESSION['password']))) {
 session_start();
 include "../../config/koneksi.php";
 
-$module=$_GET[module];
-$act=$_GET[act];
+$module=$_GET["module"];
+$act=$_GET["act"];
 
 // Hapus admin
 if ($module=='admin' AND $act=='hapus'){
@@ -21,9 +21,9 @@ if ($module=='admin' AND $act=='hapus'){
 
 // Input admin
 elseif ($module=='admin' AND $act=='input'){
-$username=$_POST[username];
-$nama_lengkap=$_POST[nama_lengkap];
-$pass=md5($_POST[password]);
+$username=$_POST["username"];
+$nama_lengkap=$_POST["nama_lengkap"];
+$pass=md5($_POST["password"]);
 mysqli_query($conn,"INSERT INTO admin(
 			      username,password,nama_lengkap) 
 	                       VALUES(
@@ -33,8 +33,8 @@ mysqli_query($conn,"INSERT INTO admin(
 
 // Update admin
 elseif ($module=='admin' AND $act=='update'){
-$username=$_POST[username];
-$nama_lengkap=$_POST[nama_lengkap];
+$username=$_POST["username"];
+$nama_lengkap=$_POST["nama_lengkap"];
   mysqli_query($conn,"UPDATE admin SET
 					username   = '$username',
 					nama_lengkap   = '$nama_lengkap'

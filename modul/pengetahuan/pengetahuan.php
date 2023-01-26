@@ -46,12 +46,12 @@ if (text_form.keyword.value == "")
 }
 return (true);
 }
--->
+
 </script>
 <?php
 include "config/fungsi_alert.php";
 $aksi="modul/pengetahuan/aksi_pengetahuan.php";
-switch($_GET[act]){
+switch($_GET["act"]){
 	// Tampil pengetahuan
   default:
   $offset=$_GET['offset'];
@@ -66,7 +66,7 @@ switch($_GET[act]){
 		  <tr><td><input class='btn bg-olive margin' type=button name=tambah value='Tambah Basis Pengetahuan' onclick=\"window.location.href='pengetahuan/tambahpengetahuan';\"><input type=text name='keyword' style='margin-left: 10px;' placeholder='Ketik dan tekan cari...' class='form-control' value='$_POST[keyword]' /> <input class='btn bg-olive margin' type=submit value='   Cari   ' name=Go></td> </tr>
           </table></form>";
 		  	$baris=mysqli_num_rows($tampil);
-	if ($_POST[Go]){
+	if ($_POST["Go"]){
 			$numrows = mysqli_num_rows(mysqli_query($conn,"SELECT * FROM basis_pengetahuan b,penyakit p where b.kode_penyakit=p.kode_penyakit AND p.nama_penyakit like '%$_POST[keyword]%'"));
 			if ($numrows > 0){
 				echo "<div class='alert alert-success alert-dismissible'>
@@ -249,14 +249,14 @@ switch($_GET[act]){
 		  <tr><td width=120>Penyakit</td><td><select class='form-control' name='kode_penyakit' id='kode_penyakit'>";
 		$hasil4 = mysqli_query($conn,"SELECT * FROM penyakit order by nama_penyakit");
 		while($r4=mysqli_fetch_array($hasil4)){
-			echo "<option value='$r4[kode_penyakit]'"; if($r[kode_penyakit]==$r4[kode_penyakit]) echo "selected";
+			echo "<option value='$r4[kode_penyakit]'"; if($r["kode_penyakit"]==$r4["kode_penyakit"]) echo "selected";
 			echo ">$r4[nama_penyakit]</option>";
 		}
 		echo	"</select></td></tr>
 		<tr><td>Gejala</td><td><select class='form-control' name='kode_gejala' id='kode_gejala'>";
 		$hasil4 = mysqli_query($conn,"SELECT * FROM gejala order by nama_gejala");
 		while($r4=mysqli_fetch_array($hasil4)){
-			echo "<option value='$r4[kode_gejala]'"; if($r[kode_gejala]==$r4[kode_gejala]) echo "selected";
+			echo "<option value='$r4[kode_gejala]'"; if($r["kode_gejala"]==$r4["kode_gejala"]) echo "selected";
 			echo ">$r4[nama_gejala]</option>";
 		}
 		echo	"</select></td></tr>

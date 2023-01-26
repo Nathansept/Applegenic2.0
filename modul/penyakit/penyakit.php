@@ -28,13 +28,13 @@ if (!(isset($_SESSION['username']) && isset($_SESSION['password']))) {
       }
       return (true);
     }
-    -- >
+
   </script>
   <?php
 
   include "config/fungsi_alert.php";
   $aksi = "modul/penyakit/aksi_penyakit.php";
-  switch ($_GET[act]) {
+  switch ($_GET["act"]) {
     // Tampil penyakit
     default:
       $offset = $_GET['offset'];
@@ -49,7 +49,7 @@ if (!(isset($_SESSION['username']) && isset($_SESSION['password']))) {
 		  <tr><td><input class='btn bg-olive margin' type=button name=tambah value='Tambah Penyakit' onclick=\"window.location.href='penyakit/tambahpenyakit';\"><input type=text name='keyword' style='margin-left: 10px;' placeholder='Ketik dan tekan cari...' class='form-control' value='$_POST[keyword]' /> <input class='btn bg-olive margin' type=submit value='   Cari   ' name=Go></td> </tr>
           </table></form>";
       $baris = mysqli_num_rows($tampil);
-      if ($_POST[Go]) {
+      if ($_POST["Go"]) {
         $numrows = mysqli_num_rows(mysqli_query($conn,"SELECT * FROM penyakit where nama_penyakit like '%$_POST[keyword]%'"));
         if ($numrows > 0) {
           echo "<div class='alert alert-success alert-dismissible'>
@@ -189,8 +189,8 @@ if (!(isset($_SESSION['username']) && isset($_SESSION['password']))) {
     case "editpenyakit":
       $edit = mysqli_query($conn,"SELECT * FROM penyakit WHERE kode_penyakit='$_GET[id]'");
       $r = mysqli_fetch_array($edit);
-      if ($r[gambar]) {
-        $gambar = 'gambar/penyakit/' . $r[gambar];
+      if ($r["gambar"]) {
+        $gambar = 'gambar/penyakit/' . $r["gambar"];
       } else {
         $gambar = 'gambar/noimage.png';
       }
