@@ -1,4 +1,4 @@
-<title>Keterangan - Chirexs 1.0</title>
+<title>Keterangan - Applegenic 2.0</title>
 <h2 class='text text-primary'>Keterangan</h2>
 <hr>
 <div class="row">

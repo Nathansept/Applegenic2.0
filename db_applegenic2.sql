@@ -39,8 +39,7 @@ CREATE TABLE `admin` (
 
 INSERT INTO `admin` (`username`, `password`, `nama_lengkap`) VALUES
 ('admin', '21232f297a57a5a743894a0e4a801fc3', 'Administrator'),
-('RYU', 'f3770595e0cb4d9a988bd5da98d2187d', 'Rizky Yuni Utami'),
-('januriawan', '21232f297a57a5a743894a0e4a801fc3', 'Fajar Januriawan');
+('Nathansept', '3051085ddce70013d6c496bd86b4dbe1', 'Nathan Septian');
 
 -- --------------------------------------------------------
 

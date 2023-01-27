@@ -38,8 +38,8 @@ $module = $_GET['module'];
   <div class="container"></div>
 <li><a <?php if ($module == "keterangan") echo 'class="active"'; ?> href="keterangan" style="padding-left: 20px;"><i class="fa fa-commenting-o" style="margin-left: -7px; font-size: 25px; color: white;"></i> <span style="font-size: 20px; font-weight: normal; padding-left: 10px; color: white;">Keterangan</span></a>
 <li>
-  <div class="container"></div>
-<li><a <?php if ($module == "harga") echo 'class="active"'; ?> href="harga" style="padding-left: 20px;"><i class="fa fa-bookmark-o" style="margin-left: -7px; font-size: 25px; color: white;"></i> <span style="font-size: 20px; font-weight: normal; padding-left: 10px; color: white;">Info Harga</span></a>
+  <!-- <div class="container"></div>
+<li><a <?php if ($module == "harga") echo 'class="active"'; ?> href="harga" style="padding-left: 20px;"><i class="fa fa-bookmark-o" style="margin-left: -7px; font-size: 25px; color: white;"></i> <span style="font-size: 20px; font-weight: normal; padding-left: 10px; color: white;">Info Harga</span></a> -->
 <li>
   <div class="container"></div>
 <?php
