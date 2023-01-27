@@ -54,7 +54,7 @@ if (!(isset($_SESSION['username']) && isset($_SESSION['password']))) {
 			if (empty($offset)) {
 				$offset = 0;
 			}
-			$tampil = mysqli_query($conn, "SELECT * FROM basis_pengetahuan ORDER BY kode_pengetahuan");
+			$tampil = mysqli_query($conn, "SELECT * FROM basis_pengetahuan");
 			echo "<form method=POST action='?module=pengetahuan' name=text_form onsubmit='return Blank_TextField_Validator_Cari()'>
           <br><br><table class='table table-bordered'>
 		  <tr><td><input class='btn bg-olive margin' type=button name=tambah value='Tambah Basis Pengetahuan' onclick=\"window.location.href='pengetahuan/tambahpengetahuan';\"><input type=text name='keyword' style='margin-left: 10px;' placeholder='Ketik dan tekan cari...' class='form-control' value='$_POST[keyword]' /> <input class='btn bg-olive margin' type=submit value='   Cari   ' name=Go></td> </tr>
