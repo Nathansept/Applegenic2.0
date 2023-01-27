@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="item">
-      <img src="aset/banner/telur.jpg" alt="Second slide">
+      <img src="aset/banner/experts.png" alt="Second slide">
       <div class="carousel-caption">
       </div>
     </div><!--
